@@ -5,7 +5,7 @@ Webpage of the CANA team, LIS.
 [https://kevin.perrot.pages.lis-lab.fr/canawww/](https://kevin.perrot.pages.lis-lab.fr/canawww/)
 
 # how-to
-
+ 
 1. Touch one the following files:
   * ``_posts/2013-09-01-cana.md``: main page (markdown)
   * ``_bibliography/references.bib``: bibtex entries (please follow the file's **conventions**)
