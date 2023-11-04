@@ -1,0 +1,47 @@
+---
+---
+{{ reference }}
+
+{% if entry.note %}
+{{entry.note}}.
+&nbsp;
+{% endif %}
+
+{% if entry.doi %}
+<a href="https://doi.org/{{entry.doi}}">DOI-link</a>
+&nbsp;
+{% endif %}
+
+{% if entry.hal %}
+<a href="https://hal.archives-ouvertes.fr/{{entry.hal}}">HAL-link</a>
+&nbsp;
+{% endif %}
+
+{% if entry.eprint %}
+<a href="https://arxiv.org/abs/{{entry.eprint}}">arXiv-link</a>
+&nbsp;
+{% endif %}
+
+{% if entry.pdf %}
+<a href="{{entry.pdf}}">PDF-link</a>
+{% endif %}
+
+<br />
+
+<button onclick="openclosediv('{{entry.title}}')">see bibtex entry</button>
+
+<div id='{{entry.title}}' style="display:none">
+<pre>{{ entry.bibtex }}</pre>
+</div>
+
+<script>
+function openclosediv(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
