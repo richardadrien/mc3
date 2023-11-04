@@ -1,10 +1,67 @@
-title: MC3
-email: richard@unice.fr
-description: Webpage of MC3 team, I3S.
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+title: CANA
+email: name dot surname at lis-lab.fr with name=kevin and surname=perrot
+description: Webpage of the Calcul Naturel team, LIS.
+baseurl: "" # was "/canawww" for gitlab pages (https://kevin.perrot.pages.lis-lab.fr/canawww/)
+url: ""
 
-remote_theme: remote_theme: fongandrew/hydeout
+# hydeout requires paginate (though we don't use it)
+paginate: 5
+
+include:
+  - .htaccess
+
+exclude:
+  - blop # put here folders that are not public
+
+#sass:
+#  sass_dir: _sass
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-scholar
 
+# Sidebar link settings
+sidebar_home_link:  true
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+# custom biblio layout
+scholar:
+  style: _bibliography/custombibstyle.csl #chicago-fullnote-bibliography 
+  locale: en
+  bibliography_template: bib
+  #sort-by:
+  order: descending
+  group_by: year
+  group_order: descending
+  # https://github.com/inukshuk/jekyll-scholar/issues/165
+  bibliography_list_attributes:
+    reversed: "reversed"
 
