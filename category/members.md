@@ -3,12 +3,8 @@ layout: category
 title: Members
 ---
 
-## **Members**
-
----
-
 ### Permanent team members
-
+ 
 - [Giuseppe Di Molfetta](https://www.giuseppe-dimolfetta.com), professeur des universités.
 - [Kévin Perrot](https://pageperso.lis-lab.fr/~kevin.perrot/), maître de conférences (head).
 - [Antonio E. Porreca](https://aeporreca.org/), maître de conférences.
