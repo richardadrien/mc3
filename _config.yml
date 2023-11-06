@@ -3,7 +3,7 @@
 # Setup
 title:            MC3
 #tagline:          'A Jekyll theme'
-#description:      'Modèle de Calcul, Complexité, Combinatoire @ <a href="https://www.i3s.unice.fr/fr/" target="_blank">I3S</a>'
+description:      'Modèle de Calcul, Complexité, Combinatoire @ <a href="https://www.i3s.unice.fr/fr/" target="_blank">I3S</a>'
 #url:              https://github.com/richardadrien/
 #baseurl:          '/mc3'
                   # the optional subpath of your site, e.g. "/blog"
