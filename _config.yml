@@ -1,8 +1,8 @@
 
 
 # Setup
-title:            'MC3 @<a href="https://www.i3s.unice.fr/fr/">I3S</a>'
-description:      'Modèles de Calcul <br> Complexité <br> Combinatoire'
+title:            'MC3'
+description:      'Modèles de Calcul <br> Complexité <br> Combinatoire <br> @<a href="https://www.i3s.unice.fr/fr/">I3S</a>'
 
 remote_theme: fongandrew/hydeout
 paginate: 5 
