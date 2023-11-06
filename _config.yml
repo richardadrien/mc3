@@ -13,4 +13,4 @@ baseurl:          '/hydeout'
                   # sidebar_blog_link below.
 
 remote_theme: fongandrew/hydeout
-paginate: 5
+paginate: 5 
