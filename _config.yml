@@ -1,16 +1,8 @@
 
 
 # Setup
-title:            MC3
-#tagline:          'A Jekyll theme'
-description:      'Modèles de Calcul, Complexité, Combinatoire @ <a href="https://www.i3s.unice.fr/fr/" target="_blank">I3S</a>'
-#url:              https://github.com/richardadrien/
-#baseurl:          '/mc3'
-                  # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+title:            'MC3 @<a href="https://www.i3s.unice.fr/fr/">I3S</a>'
+description:      'Modèles de Calcul <br> Complexité <br> Combinatoire'
 
 remote_theme: fongandrew/hydeout
 paginate: 5 
