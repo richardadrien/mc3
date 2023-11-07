@@ -24,7 +24,7 @@ Other files that may be touched:
 * ``_includes/custom-nav-links.html``: to add links to home in the sidebar
 * ``_config.yml``: jekyll config file
 
-Other files that cannot be touched, adapted from hyedout: 
+Other files that cannot be touched, adapted from hydedout: 
 * ``_includes/sidebar-icon-links.html``: hacked from hydeout to remove sidebar incons
 * ``_layouts/post.html``: hacked from hydeout to make a single post as the home page
 * ``index.html``: almost empty index needed by hydeout
