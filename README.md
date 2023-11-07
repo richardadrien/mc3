@@ -24,11 +24,12 @@ with the geneoristy of Kévin Perrot
 	* ``_includes/custom-nav-links.html``: to add links to home in the sidebar
 	* ``_config.yml``: jekyll config file, sidebar title and subtitle are here
   
-2. Files that cannot be touched, adapted from hydedout: 
+2. Files that cannot be touched, adapted from hydedout/kévin project: 
 	* ``_includes/sidebar-icon-links.html``: hacked from hydeout to remove sidebar incons
 	* ``_layouts/post.html``: hacked from hydeout to make a single post as the home page
 	* ``index.html``: almost empty index needed by hydeout
-	* ``_bibliography/custombibstly.csl``: bib style from Kévin Perrot project
+	* ``_bibliography/custombibstly.csl``: bib style from Kévin project
+ 	* ``_layouts/bib.html``: bib style from Kévin project	 
 
 3. Other files that cannot be touched, for installing jekyll-scholar
 unsing this very usefull [post](https://open-research.gemmadanks.com/tutorials/how-to-use-jekyll-scholar-with-github-pages/):
