@@ -1,1 +1,23 @@
-# MC3 website
+Webpage of the MC3 team, I3S.  
+[https://github.com/richardadrien/mc3/](https://github.com/richardadrien/mc3/))
+
+# how-to
+
+1. Touch one the following files:
+  * ``_posts/2023-11-01-home.md``: main page (markdown)
+  * ``_bibliography/references.bib``: bibtex entries (please follow the file's **conventions**)
+  * ``_data/seminars.yml``: seminars (yaml)
+  * ``slides/``: put the slides here, named ``yyyymmdd-Surname.pdf`` (and copy this name under field ``slides:`` in ``seminars.yml``).
+2. Push your modifications, the website rebuilts automagically after ``~1`` minute.
+
+# technical details
+
+Other files that may be touched:
+* ``_includes/copyright.html``: the copyright included in the side bar is here
+* ``_includes/custom-nav-links.html``: to add links to the main page in the side bar
+* ``_config.yml``: jekyll config file
+
+Other files adapted from hyedout 
+* ``_includes/sidebar-icon-links.html``: hacked from hydeout to remove sidebar incons
+* ``_layouts/post.html``: hacked from hydeout to make a single post as the home page
+* ``index.html``: almost empty index needed by hydeout
