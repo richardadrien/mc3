@@ -8,4 +8,8 @@ remote_theme: fongandrew/hydeout
 paginate: 5 
 
 plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
   - jekyll-scholar
+
