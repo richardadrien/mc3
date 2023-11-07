@@ -1,4 +1,4 @@
-# Webpage of the MC3 team, I3S.  
+Webpage of the MC3 team, I3S.  
 
 [https://github.com/richardadrien/mc3/](https://github.com/richardadrien/mc3/)
 
@@ -8,7 +8,7 @@ Adapted from
 
 with the geneoristy of Kévin Perrot
 
-# how-to
+# How-to
 
 1. Touch one the following files:
   * ``_posts/2023-11-01-home.md``: main page (markdown)
@@ -17,7 +17,7 @@ with the geneoristy of Kévin Perrot
   * ``slides/``: put the slides here, named ``yyyymmdd-Surname.pdf`` (and copy this name under field ``slides:`` in ``seminars.yml``).
 2. Push your modifications, the website rebuilts automagically after ``~1`` minute.
 
-# technical details
+# Technical details
 
 Other files that may be touched:
 * ``_includes/copyright.html``: the copyright sidebar is here
