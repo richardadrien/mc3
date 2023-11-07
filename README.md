@@ -28,3 +28,10 @@ Other files that cannot be touched, adapted from hydedout:
 * ``_includes/sidebar-icon-links.html``: hacked from hydeout to remove sidebar incons
 * ``_layouts/post.html``: hacked from hydeout to make a single post as the home page
 * ``index.html``: almost empty index needed by hydeout
+
+Other files that cannot be touched, for installing jeckyll-scholar
+unsing this very usefull [post](https://open-research.gemmadanks.com/tutorials/how-to-use-jekyll-scholar-with-github-pages/)
+* ``.github/workflows''
+* ``.gitignore''
+* ``.ruby-version'' for downgrade ruby!
+* ``Gemfile''
