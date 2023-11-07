@@ -19,20 +19,20 @@ with the geneoristy of Kévin Perrot
 
 # Technical details
 
-Other files that may be touched:
-* ``_includes/copyright.html``: the copyright sidebar is here
-* ``_includes/custom-nav-links.html``: to add links to home in the sidebar
-* ``_config.yml``: jekyll config file, sidebar title and subtitle are here
+1. Other files that may be touched:
+	* ``_includes/copyright.html``: the copyright sidebar is here
+	* ``_includes/custom-nav-links.html``: to add links to home in the sidebar
+	* ``_config.yml``: jekyll config file, sidebar title and subtitle are here
   
-Other files that cannot be touched, adapted from hydedout: 
-* ``_includes/sidebar-icon-links.html``: hacked from hydeout to remove sidebar incons
-* ``_layouts/post.html``: hacked from hydeout to make a single post as the home page
-* ``index.html``: almost empty index needed by hydeout
-* ``_bibliography/custombibstly.csl``: bib style from Kévin Perrot project
+2. Files that cannot be touched, adapted from hydedout: 
+	* ``_includes/sidebar-icon-links.html``: hacked from hydeout to remove sidebar incons
+	* ``_layouts/post.html``: hacked from hydeout to make a single post as the home page
+	* ``index.html``: almost empty index needed by hydeout
+	* ``_bibliography/custombibstly.csl``: bib style from Kévin Perrot project
 
-Other files that cannot be touched, for installing jeckyll-scholar
+3. Other files that cannot be touched, for installing jekyll-scholar
 unsing this very usefull [post](https://open-research.gemmadanks.com/tutorials/how-to-use-jekyll-scholar-with-github-pages/):
-* ``.github/workflows``
-* ``.gitignore``: really needed?
-* ``.ruby-version``: for downgrade ruby!
-* ``Gemfile``: can be cleaned? and ``_config.yml`` accordingly?
+	* ``.github/workflows``
+	* ``.gitignore``: really needed?
+	* ``.ruby-version``: for downgrade ruby!
+	* ``Gemfile``: can be cleaned? and ``_config.yml`` accordingly?
