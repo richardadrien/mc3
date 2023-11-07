@@ -1,15 +1,5 @@
-
-
 # Setup
 title:            'MC3'
 description:      '<b>M</b>odèles de <br> <b>C</b>alcul <br> <b>C</b>omplexité <br> <b>C</b>ombinatoire <br> @<a href="https://www.i3s.unice.fr/fr/">I3S</a>'
 
 remote_theme: fongandrew/hydeout
-paginate: 5 
-
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-scholar
-
