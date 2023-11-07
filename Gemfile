@@ -1,1 +1,1 @@
-gem 'jekyll-scholar'
+gem "jekyll-scholar", group: :jekyll_plugins
