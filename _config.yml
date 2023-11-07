@@ -3,9 +3,11 @@ title:            'MC3'
 description:      'Modèles de <br> Calcul <br> Complexité <br> Combinatoire <br> @<a href="https://www.i3s.unice.fr/fr/">I3S</a>'
 url: ""
 
+# jekyll theme (paginate seems not needed)
 remote_theme: fongandrew/hydeout
 paginate: 5
 
+# for installing jekyll-scholar
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
