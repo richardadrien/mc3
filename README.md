@@ -1,4 +1,4 @@
-Webpage of the MC3 team, I3S.  
+Webpage for MC3 team, I3S.  
 
 [https://github.com/richardadrien/mc3/](https://github.com/richardadrien/mc3/)
 
