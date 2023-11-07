@@ -19,7 +19,7 @@ plugins:
 
 # custom biblio layout
 scholar:
-  style: _bibliography/custombibstyle.csl #chicago-fullnote-bibliography 
+  #style: _bibliography/custombibstyle.csl #chicago-fullnote-bibliography 
   locale: en
   bibliography_template: bib
   #sort-by:
