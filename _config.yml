@@ -21,7 +21,7 @@ plugins:
 scholar:
   #style: _bibliography/custombibstyle.csl #chicago-fullnote-bibliography 
   locale: en
-  bibliography_template: bib
+  #bibliography_template: bib
   #sort-by:
   order: descending
   group_by: year
