@@ -22,7 +22,7 @@ with the geneoristy of Kévin Perrot
 Other files that may be touched:
 * ``_includes/copyright.html``: the copyright sidebar is here
 * ``_includes/custom-nav-links.html``: to add links to home in the sidebar
-* ``_config.yml``: jekyll config file
+* ``_config.yml``: jekyll config file, sidebar title and subtitle are here
 
 Other files that cannot be touched, adapted from hydedout: 
 * ``_includes/sidebar-icon-links.html``: hacked from hydeout to remove sidebar incons
