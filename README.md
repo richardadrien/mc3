@@ -1,1 +1,1 @@
-# mc3 website
+# MC3 website
