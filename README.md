@@ -1,5 +1,12 @@
-Webpage of the MC3 team, I3S.  
+# Webpage of the MC3 team, I3S.  
+
 [https://github.com/richardadrien/mc3/](https://github.com/richardadrien/mc3/)
+
+Adapted from 
+
+[https://kevin.perrot.pages.lis-lab.fr/canawww/](https://kevin.perrot.pages.lis-lab.fr/canawww/)
+
+with the geneoristy of Hévin Perrot
 
 # how-to
 
