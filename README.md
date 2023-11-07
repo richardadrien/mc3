@@ -1,5 +1,5 @@
 Webpage of the MC3 team, I3S.  
-[https://github.com/richardadrien/mc3/](https://github.com/richardadrien/mc3/))
+[https://github.com/richardadrien/mc3/](https://github.com/richardadrien/mc3/)
 
 # how-to
 
@@ -13,11 +13,11 @@ Webpage of the MC3 team, I3S.
 # technical details
 
 Other files that may be touched:
-* ``_includes/copyright.html``: the copyright included in the side bar is here
-* ``_includes/custom-nav-links.html``: to add links to the main page in the side bar
+* ``_includes/copyright.html``: the copyright sidebar is here
+* ``_includes/custom-nav-links.html``: to add links to home in the sidebar
 * ``_config.yml``: jekyll config file
 
-Other files adapted from hyedout 
+Other files that cannot be touched, adapted from hyedout: 
 * ``_includes/sidebar-icon-links.html``: hacked from hydeout to remove sidebar incons
 * ``_layouts/post.html``: hacked from hydeout to make a single post as the home page
 * ``index.html``: almost empty index needed by hydeout
