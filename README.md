@@ -30,7 +30,7 @@ Other files that cannot be touched, adapted from hydedout:
 * ``index.html``: almost empty index needed by hydeout
 
 Other files that cannot be touched, for installing jeckyll-scholar
-unsing this very usefull [post](https://open-research.gemmadanks.com/tutorials/how-to-use-jekyll-scholar-with-github-pages/)
+unsing this very usefull [post](https://open-research.gemmadanks.com/tutorials/how-to-use-jekyll-scholar-with-github-pages/):
 * ``.github/workflows''
 * ``.gitignore''
 * ``.ruby-version'' for downgrade ruby!
