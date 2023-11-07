@@ -14,3 +14,16 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-scholar
+
+# custom biblio layout
+scholar:
+  style: _bibliography/custombibstyle.csl #chicago-fullnote-bibliography 
+  locale: en
+  bibliography_template: bib
+  #sort-by:
+  order: descending
+  group_by: year
+  group_order: descending
+  # https://github.com/inukshuk/jekyll-scholar/issues/165
+  bibliography_list_attributes:
+    reversed: "reversed"
