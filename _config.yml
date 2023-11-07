@@ -4,3 +4,7 @@ description:      '<b>M</b>odèles de <br> <b>C</b>alcul <br> <b>C</b>omplexité
 
 remote_theme: fongandrew/hydeout
 paginate: 5
+
+plugins:
+  - jekyll-scholar
+
