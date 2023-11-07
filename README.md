@@ -6,7 +6,7 @@ Adapted from
 
 [https://kevin.perrot.pages.lis-lab.fr/canawww/](https://kevin.perrot.pages.lis-lab.fr/canawww/)
 
-with the geneoristy of Hévin Perrot
+with the geneoristy of Kévin Perrot
 
 # how-to
 
