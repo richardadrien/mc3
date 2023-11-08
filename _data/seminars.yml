@@ -3,7 +3,7 @@
 # - date *
 # - place *
 # - talk * (title)
-# - slides (yyyymmdd-Surname.pdf filename in slides/)
+# - slides (yyyymmdd-Surname.pdf filename in slides/ ex: slides: "20230711-Perrot.pdf")
 # - video (url Amupod)
 # - abstract (between double quotes, be careful about special characters, you may add html tags eg. <br/>)
 
