@@ -11,14 +11,11 @@
 # colon ':' must be avoided (html code &#58;)
 
 - who: Ha Duong PHAN (Institut de Mathématiques de l'Académie des Sciences et Technologies du Vietnam)
-
-	date: 28 Septembre 2023, 15h30
-
-	place: I3S (007)
-
-	talk: "Community detection in directed graphs using stationary distribution and hitting times methods (with Tien Dat Dang, Duy Hieu Do)"
-
-	abstract: "Community detection has been extensively developed using various
+date: 28 Septembre 2023, 15h30
+place: I3S (007)
+talk: "Community detection in directed graphs using stationary distribution 
+and hitting times methods (with Tien Dat Dang, Duy Hieu Do)"
+abstract: "Community detection has been extensively developed using various
 algorithms. One of the most powerful algorithms for undirected graphs
 is Walktrap, which determines the distance between vertices by
 employing random walk and evaluates clusters using modularity based on
@@ -39,11 +36,16 @@ these problems, and we have implemented our algorithms to demonstrate
 their plausibility and effectiveness."
 
 - who: Tatiana R. Shmeleva (MC3)
-
-	date : 2 février 2023, 14h00
-
-	place: I3S (007)
-	
-	talk: "Verification of Square Lattices with Various Neighborhoods by Infinite Petri Nets"
-	
-	abstract: "Different types of square lattice abstract structures with various neighborhoods and edge conditions are basic constructs in many real-life areas like telecommunications, computing, nanotechnologies, and biological systems. Detailed models of realistic switching devices have been built, which combine cut-through and store-and-forward modes of switching; models were studied for von Neumann's and Moore's neighborhoods. For modeling rectangular structures, the infinite Petri net models have been developed and investigated. Based on the parametric expression of square lattice models, infinite systems of linear homogenous equations have been derived. The constructed models are the place invariant Petri nets for any given size of square lattice."
+date : 2 février 2023, 14h00
+place: I3S (007)
+talk: "Verification of Square Lattices with Various Neighborhoods by Infinite Petri Nets"
+abstract: "Different types of square lattice abstract structures with various 
+neighborhoods and edge conditions are basic constructs in many real-life areas 
+like telecommunications, computing, nanotechnologies, and biological systems. 
+Detailed models of realistic switching devices have been built, which combine 
+cut-through and store-and-forward modes of switching; models were studied for 
+von Neumann's and Moore's neighborhoods. For modeling rectangular structures, 
+the infinite Petri net models have been developed and investigated. Based on the 
+parametric expression of square lattice models, infinite systems of linear homogenous 
+equations have been derived. The constructed models are the place invariant Petri nets 
+for any given size of square lattice."
