@@ -6,7 +6,7 @@
 # - slides (yyyymmdd-Surname.pdf filename in slides/ ex: slides: "20230711-Perrot.pdf")
 # - abstract (between double quotes, be careful about special characters, you may add html tags eg. <br/>)
 
-
+ 
 # order: most recent first
 # colon ':' must be avoided (html code &#58;)
 
