@@ -6,23 +6,38 @@
 # - slides (yyyymmdd-Surname.pdf filename in slides/)
 # - video (url Amupod)
 # - abstract (between double quotes, be careful about special characters, you may add html tags eg. <br/>)
-# - agenda (url lis-lab agenda)
+
 
 # order: most recent first
 # colon ':' must be avoided (html code &#58;)
 
-- who: Célia Biane Fourati (Université de Bourgogne)
-  date: 12 décembre 2023 &#58; 14h00
-  place: TPR2/04.05 (Luminy)
-  talk: "Biological networks: from Boolean models in computational precision
-oncology to experimental neurosciences"
-  abstract: "Boolean dynamical models of biological signaling and transcriptional networks have been used these last years to model tumor cells and predict therapeutic targets in Cancer. Major limitations to a more generalised application of these types of models include:<br><br>
+- who: Ha Duong PHAN (nstitut de Mathématiques de l'Académie des Sciences et Technologies du Vietnam)
 
-1. the step of models' reconstruction that is currently done by manual curation of biological knowledge from the litterature by experts in molecular biology, which makes it a long process, dependent on the choices of the modeler and difficult to reproduce.<br><br>
+  date: 28 Septembre 2023, 15h30
 
-2. The development of performing algorithmic methods allowing the reprogramming of the dynamical behavior of Boolean dynamical systems.<br><br>
+  place: I3S (007)
 
-In the course of this seminar, I will address the reconstruction of Boolean biological models from omics data, methods of reprogramming of dynamical behavior of dynamical systems and the application of such approaches to the discovery of new therapeutic targets in cancer. In a second part of the talk, I will introduce concepts from neurosciences and present recently published results on the integrative properties of cerebellar neurons."
+  talk: "Community detection in directed graphs using stationary distribution and hitting times methods (with Tien Dat Dang, Duy Hieu Do)"
+
+  abstract: "Community detection has been extensively developed using various
+algorithms. One of the most powerful algorithms for undirected graphs
+is Walktrap, which determines the distance between vertices by
+employing random walk and evaluates clusters using modularity based on
+vertex degrees. Although several directions have been explored to
+extend this method to directed graphs, none of them have been
+effective. In this paper, we investigate the Walktrap algorithm (Pons
+and Latapy in J Graph Algorithms Appl 10:191–218, 2006) and the
+spectral method (Newman in Phys Rev E 88:042822, 2013) and extend them
+to directed graphs. We propose a novel approach in which the distance
+between vertices is defined using hitting time, and modularity is
+computed based on the stationary distribution of a random walk. These
+definitions are highly effective, as algorithms for hitting time and
+stationary distribution have been developed, allowing for good
+computational complexity. Our proposed method is particularly useful
+for directed graphs, with the well-known results for undirected graphs
+being special cases. Additionally, we utilize the spectral method for
+these problems, and we have implemented our algorithms to demonstrate
+their plausibility and effectiveness."
 
 - who: Timothée Hoffreumon (Centre for Quantum Information and Communication, Université libre de Bruxelles)
   date: 5 décembre 2023 &#58; 14h00
