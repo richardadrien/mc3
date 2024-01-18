@@ -24,6 +24,7 @@ with the geneoristy of Kévin Perrot
 	* ``_includes/copyright.html``: the copyright sidebar is here
 	* ``_includes/custom-nav-links.html``: to add links to home in the sidebar
 	* ``_config.yml``: jekyll config file, sidebar title and subtitle are here
+	* `àssests/css/main.scss``: main colors are here
   
 2. Files that cannot be touched, adapted from hydedout/kévin project: 
 	* ``_includes/sidebar-icon-links.html``: hacked from hydeout to remove sidebar incons
