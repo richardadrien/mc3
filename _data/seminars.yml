@@ -10,11 +10,24 @@
 # order: most recent first
 # colon ':' must be avoided (html code &#58;)
 
+- who: Thomas Prévost (MC3)
+  date: March 28, 2024, 14h00
+  place: I3S (007)
+  talk: "Développement d'un protocole pour l'échange de clé quantique et intégration à une bibliothèque"
+  abstract: "Le projet consiste à développer un protocole pour étendre la portée des systèmes d'échange 
+  de clé quantiques. Ces derniers étant limités à environ 100 km, nous souhaitons mettre en place un système 
+  de relais qui permettrait de faire passer des morceaux de clé cryptographique au travers de plusieurs liens 
+  quantiques en parallèle. Finalement les utilisateurs pourront reconstruire une clé cryptographique commune 
+  à partir des morceaux qu'ils ont reçu des différents relais. Nous souhaiterions enfin proposer une vérification 
+  formelle du protocole cryptographique, puis une intégration de ce dernier à une bibliothèque logicielle afin de 
+  proposer une encapsulation transparente pour l'utilisateur."
+
+
 - who: Svetlana Puzynina (Saint Petersburg State University)
-  date: Fabryary 8, 2023, 16h00
+  date: Fabryary 8, 2024, 16h00
   place: I3S (007)
   talk: "Well distributed occurrences property in infinite words"
-  abstract: "Abstract: In this talk, I will present a new abelian-type property of infinite words, 
+  abstract: "In this talk, I will present a new abelian-type property of infinite words, 
   so-called well distributed occurrences property. We will discuss how infinite words satisfying 
   this property can be used to produce aperiodic pseudorandom number generators with good statistical behavior. 
   We study the well distributed occurrences property for certain families of  infinite words including words 
