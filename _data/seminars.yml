@@ -10,6 +10,18 @@
 # order: most recent first
 # colon ':' must be avoided (html code &#58;)
 
+- who: Maximilien Gadouleau (Durham, UK)
+  date: June 13, 2024, 14h00
+  place: I3S (007)
+  talk: "Qu'est-ce qu'un réseau Booléen ?"
+  abstract: "Les réseaux Booléens modélisent des réseaux d’interaction, où chaque entité a un état Booléen 
+  et une fonction Booléenne qui met à jour ce dernier. On peut voir un réseau Booléen de plusieurs façons 
+  différentes, chacune amenant des questions et des constructions intéressantes ; c’est sans doute l’un des 
+  aspects les plus excitants de la recherche dans ce domaine. Dans cet exposé, nous donnerons un aperçu de 
+  certaines de ces visions : un réseau Booléen est une transformation de l’ensemble {0,1}^n, de l’hypercube 
+  de dimension n, du treillis Booléen de hauteur n, de l’espace vectoriel GF(2)^n, ou même du corps fini 
+  GF(2^n)... Aucune connaissance préalable des réseaux Booléens n’est requise."
+  
 - who: Thomas Prévost (MC3)
   date: March 28, 2024, 14h00
   place: I3S (007)
