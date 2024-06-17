@@ -3,7 +3,7 @@
 # - date *
 # - place *
 # - talk * (title)
-# - slides (yyyymmdd-Surname.pdf filename in slides/ ex: slides: "20230711-Perrot.pdf")
+# - slides (yyyy-mm-dd-Surname.pdf filename in slides/ ex: slides: "2024-06-13-Gadouleau.pdf")
 # - abstract (between double quotes, be careful about special characters, you may add html tags eg. <br/>)
 
  
@@ -21,6 +21,7 @@
   certaines de ces visions : un réseau Booléen est une transformation de l’ensemble {0,1}^n, de l’hypercube 
   de dimension n, du treillis Booléen de hauteur n, de l’espace vectoriel GF(2)^n, ou même du corps fini 
   GF(2^n)... Aucune connaissance préalable des réseaux Booléens n’est requise."
+  slides: "2024-06-13-Gadouleau.pdf"
   
 - who: Thomas Prévost (MC3)
   date: March 28, 2024, 14h00
