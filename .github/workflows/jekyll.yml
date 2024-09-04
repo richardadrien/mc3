@@ -4,6 +4,9 @@
 # documentation.
 
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
+
+FORCE_JAVASCRIPT_ACTIONS_TO_NODE20=true
+
 name: Deploy Jekyll site to Pages
 
 on:
