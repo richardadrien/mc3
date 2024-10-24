@@ -10,6 +10,34 @@
 # order: most recent first
 # colon ':' must be avoided (html code &#58;)
 
+- who: Marius Rolland (LIS, AMU)
+  date: November 14, 2024, 14h00
+  place: I3S (007)
+  talk: "Complexity of the resolution of univariate polynomial equations over finite discrete dynamical systems"
+  abstract: "The computational complexity of the resolution of polynomial
+equations of the form P(X) = B in the semiring of finite discrete
+dynamical system (FDDS) is largely open. Indeed, even if we have
+already shown that this is NP-hard in the general case, we do not have
+such a result when the number of variables in the equation is bounded,
+irrespective of the value of the bound.
+Even worse, this is also the case for monomial equations. In other
+words, we do not know the complexity of the resolution of the equation
+AX^k = B.
+
+Nevertheless, recent results prove that solving A X^k = B is in
+polynomial time if the solution respects certain conditions like
+connectivity. Also, it is proved that the resolution of A X = B is in
+polynomial time if A is cancellable (contains a connected component
+with a fixed point). Common features of these kinds of equations are
+that they are univariate and their number of solutions is at most one.
+For this reason, we would like to know if the following assertion is
+correct: if the number of solutions of the equation P(X) = B is at
+most one then we can solve it in polynomial time.
+
+A first step towards an answer is proving that this property is
+verified in the case of injective polynomial functions, and I will
+prove this result in this talk."
+
 - who: François Doré and Adrien Richard (MC3)
   date: July 4, 2024, 14h00
   place: I3S (007)
