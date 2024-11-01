@@ -10,6 +10,17 @@
 # order: most recent first
 # colon ':' must be avoided (html code &#58;)
 
+- who: Ha Duong PHAN (Institut de Mathématiques de l'Académie des Sciences et Technologies du Vietnam)
+  date: November 6, 2024, 14h00
+  place: I3S (007)
+  talk: "Divisor of Sum of Cycles"
+  abstract: "We investigate questions related to the divisors of a graph that can 
+  be represented as a sum of cycles. Initially, we focus on cases where the cycle 
+  lengths are powers of the same prime number. Subsequently, we generalize this 
+  problem by employing a recurrence method based on the number of distinct prime 
+  factors appearing in the cycles. We provide polynomial time algorithms to determine 
+  whether a sum of divisors is a divisor of another and analyze the complexity."
+
 - who: Marius Rolland (LIS, AMU)
   date: November 14, 2024, 14h00
   place: I3S (007)
