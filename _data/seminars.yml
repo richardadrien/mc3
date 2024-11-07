@@ -10,16 +10,13 @@
 # order: most recent first
 # colon ':' must be avoided (html code &#58;)
 
-- who: Ha Duong PHAN (Institut de Mathématiques de l'Académie des Sciences et Technologies du Vietnam)
-  date: November 6, 2024, 14h00
+- who: Eric Goles (LIS, AMU)
+  date: November 28, 2024, 14h00
   place: I3S (007)
-  talk: "Divisor of Sum of Cycles"
-  abstract: "We investigate questions related to the divisors of a graph that can 
-  be represented as a sum of cycles. Initially, we focus on cases where the cycle 
-  lengths are powers of the same prime number. Subsequently, we generalize this 
-  problem by employing a recurrence method based on the number of distinct prime 
-  factors appearing in the cycles. We provide polynomial time algorithms to determine 
-  whether a sum of divisors is a divisor of another and analyze the complexity."
+  talk: "Dynamic of threshold automata over signed undirected graphs"
+  abstract: "Given a threshold automata network, I present an index which  allows to discriminate 
+  whether a class of iterations ( in particular the parallel one) only leads to fixed points or cycles appear."
+
 
 - who: Marius Rolland (LIS, AMU)
   date: November 14, 2024, 14h00
@@ -48,6 +45,19 @@ most one then we can solve it in polynomial time.
 A first step towards an answer is proving that this property is
 verified in the case of injective polynomial functions, and I will
 prove this result in this talk."
+
+- who: Ha Duong PHAN (Institut de Mathématiques de l'Académie des Sciences et Technologies du Vietnam)
+  date: November 7, 2024, 14h00
+  place: I3S (308)
+  talk: "Divisor of Sum of Cycles"
+  abstract: "We investigate questions related to the divisors of a graph that can 
+  be represented as a sum of cycles. Initially, we focus on cases where the cycle 
+  lengths are powers of the same prime number. Subsequently, we generalize this 
+  problem by employing a recurrence method based on the number of distinct prime 
+  factors appearing in the cycles. We provide polynomial time algorithms to determine 
+  whether a sum of divisors is a divisor of another and analyze the complexity."
+
+
 
 - who: François Doré and Adrien Richard (MC3)
   date: July 4, 2024, 14h00
