@@ -17,7 +17,6 @@
   abstract: "Given a threshold automata network, I present an index which  allows to discriminate 
   whether a class of iterations ( in particular the parallel one) only leads to fixed points or cycles appear."
 
-
 - who: Marius Rolland (LIS, AMU)
   date: November 14, 2024, 14h00
   place: I3S (007)
@@ -56,8 +55,7 @@ prove this result in this talk."
   problem by employing a recurrence method based on the number of distinct prime 
   factors appearing in the cycles. We provide polynomial time algorithms to determine 
   whether a sum of divisors is a divisor of another and analyze the complexity."
-
-
+  slides: "2024-11-07-Phan.pdf"
 
 - who: François Doré and Adrien Richard (MC3)
   date: July 4, 2024, 14h00
