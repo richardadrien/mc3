@@ -19,7 +19,7 @@
   Automata Network belonging to one of certain families of Automata Networks 
   (determinist in the FO case, or bounded tree-width non-deterministic in the MSO case), 
   knowing whether the dynamics verifies ϕ or not has been proven to be either solvable in constant 
-  time or NP-hard or coNP-hard by Gamard, Guillon, Perrot and Theyssier. It established "à la Rice" 
+  time or NP-hard or coNP-hard by Gamard, Guillon, Perrot and Theyssier. It established 'à la Rice' 
   lower complexity bounds, stating that every non-trivial question is hard from the perspective of 
   algorithmic complexity. The question is how to extend these results to other families of Automata Networks.
   In this talk, we will present some tools used to extend the results to deterministic Automata Networks 
