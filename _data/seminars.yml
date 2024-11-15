@@ -44,7 +44,7 @@ most one then we can solve it in polynomial time.
 A first step towards an answer is proving that this property is
 verified in the case of injective polynomial functions, and I will
 prove this result in this talk."
-slides: "2024-11-14-Rolland.pdf"
+  slides: "2024-11-14-Rolland.pdf"
 
 - who: Ha Duong PHAN (Institut de Mathématiques de l'Académie des Sciences et Technologies du Vietnam)
   date: November 7, 2024, 14h00
