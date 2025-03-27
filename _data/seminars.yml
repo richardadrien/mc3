@@ -10,6 +10,18 @@
 # order: most recent first
 # colon ':' must be avoided (html code &#58;)
 
+- who: Florian Bridoux (MC3)
+  date: April 3, 2025, 14h45
+  place: I3S (007)
+  talk: "Réseaux d'automates hamiltoniens"
+  abstract: "On appelle réseau d'automates hamiltonien un réseau d'automates dont la dynamique est composée d'un seul cycle. 
+  Autrement dit, un réseau hamiltonien est une permutation cyclique de A^n où A est un ensemble fini (l'alphabet du réseau). 
+  Dans ce séminaire, nous nous intéresserons aux graphes d'interaction des réseaux hamiltoniens, c'est-à-dire au graphe qui indique, 
+  pour chaque composante du réseau d'automates, de quelles autres composantes son comportement dépend. Une question ouverte était 
+  notamment de savoir s'il est possible de construire des réseaux d'automates hamiltoniens arbitrairement grands sur des graphes 
+  d'interaction à degré entrant constant. Nous verrons que la réponse à cette question dépend de la taille de l'alphabet, et 
+  en particulier de sa parité."
+  
 - who: Aliénor Goubault-larrecq (LIS, AMU)
   date: January 9, 2025, 14h00
   place: I3S (007)
