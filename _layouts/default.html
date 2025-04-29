@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'fr'}}">
 
+{% include head.html %}
+
   <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
-    {% include custom-nav-links.html %}
+    {% include sidebar.html %}
 
     <main class="container">
       {{ content }}
