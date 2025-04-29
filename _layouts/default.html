@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'fr'}}">
+
+  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+
+    {% include custom-nav-links.html %}
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    {% include copyright.html %}
+  </body>
+</html>
