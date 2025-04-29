@@ -1,7 +1,8 @@
 # Setup: title and description appear in the sidebar
 title:            'MC3'
 description:      'Modèles de <br> Calcul <br> Complexité <br> Combinatoire <br>'
-url: ""
+url: "https://richardadrien.github.io"
+baseurl:          '/mc3'
 
 # jekyll theme (paginate seems not needed)
 remote_theme: fongandrew/hydeout
@@ -16,6 +17,17 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-scholar
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      excerpt_separator:  <!--more-->
+      layout: post
+
+# Sidebar link settings
+sidebar_home_link:  true
 
 # custom biblio layout
 scholar:
