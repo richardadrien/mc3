@@ -2,3 +2,169 @@
 layout: index
 title: Home
 ---
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/logos.png" style="max-width: 90%; height: auto;">
+
+Welcome to the webpage of the [MC3 team]({{ site.url }}{{ site.baseurl }}/) from [I3S](https://www.i3s.unice.fr/en/) laboratory (UMR 7271 [CNRS](http://www.cnrs.fr/) & [UniCA](https://univ-cotedazur.fr/)). This is one of the two teams of [MDSC](https://www.i3s.unice.fr/en/research-areas/mdsc) group. 
+
+<!-- GROUP -->
+<a id='group-link'></a><br />
+## **MC3 research group**
+ 
+### Description
+
+<p style='text-align: justify;'>
+Complex systems is a field of computer science which brings together problems from different scientific disciplines such as physics, computer science, biology, sociology, etc. Studied phenomena have a common denominator: many simple elementary components which cooperate to produce complex behavior.
+</p>
+
+<p style='text-align: justify;'>
+In this context, a large number of new models have been proposed. These models often need to be formalized, compared or reduced to others, or basically studied with techniques from theoretical computer science. We propose to put at the service of the complex systems community our experience acquired in the fields of theoretical computer science (computability, language theory, dynamical systems, combinatorics, etc.) to carry out this in-depth work.
+</p>
+
+
+<p style='text-align: justify;'>
+We seek to provide a formal framework for the study of complex systems using discrete dynamical systems as the main instrument of analysis, essentially focusing on the long-term properties of the system as well as the decidability/complexity of these properties.
+</p>
+
+
+### Keywords
+
+- Complex Systems
+- Dicrete/Finite dynamical systems
+- Automata/Boolean networks
+- Cellular automata
+- Formal language 
+- Decidability and Complexity 
+- Combinatorics 
+
+### History
+
+The group was founded by [Enrico Formenti](https://webusers.i3s.unice.fr/~formenti/) in 2007 who led it until 2023. This web page succeeds the [old page](https://webcms.i3s.unice.fr/mc3/) and only collects information from 2023.
+
+<!-- MEMBERS -->
+<a id='members-link'></a><br />
+## **Members**
+
+### Permanent team members
+
+- [Florian Bridoux](https://webusers.i3s.unice.fr/~bridoux/), maître de conférences.
+- [Christophe Crespelle](https://webusers.i3s.unice.fr/~ccrespelle/), professeur des universités.
+- [Enrico Formenti](https://webusers.i3s.unice.fr/~formenti/), professeur des universités (founder).
+- [Sandrine Julia](https://webusers.i3s.unice.fr/~julia/), maître de conférences.
+- [Bruno Martin](https://webusers.i3s.unice.fr/~bmartin/), professeur des universités.
+- [Adrien Richard](https://webusers.i3s.unice.fr/~richard/), chargé de recherche au CNRS (head).
+
+### Non-permanent team members
+
+- Issa-Moussa Diop, ATER.
+
+### PhD students
+
+- Kenza Benjelloun - PhD with Enrico Formenti.  
+	MIUR/PNRR funding with Univ. de Trieste, Italy (2022-).
+- Amelia Kunze - PhD with Enrico Formenti.  
+	MIUR funding with Univ. dell’Insubria, Varese, Italy (2023-).
+- [Thomas Prevost](https://thomasarmel.github.io), PhD with Bruno Martin.  
+	MESR/EDSTIC-UniCA funding  (2023-). 
+
+## Past members
+
+### Past Non-permanent team members
+
+- [Tatiana Shmeleva](https://www.researchgate.net/profile/Tatiana-Shmeleva), Dr.Sci., Professor, 2022-2023.
+- [Dmitry Zaitsev](http://daze.ho.ua/), Dr.Sci., Professor, 2022-2023.
+
+### Past PhD students
+
+- [Aymeric Picard-Marchetto](https://webusers.i3s.unice.fr/~picard/), PhD with Adrien Richard and Florian Bridoux.  
+	MESR/EDSTIC-UniCA fundind (2021-2024).
+- [François Doré](https://webusers.i3s.unice.fr/~dore/), PhD with Enrico Formenti.  
+MESR/EDSTIC-UniCA funding (2020-2023), UniCA ATER (2023-2024).
+
+
+### Past students
+
+- Mohamed Mahjoub, M1 Computer science UniCA, on factorization 
+  of sums of cycles, with Adrien, Christophe and Florian (2 months), 2023.
+- Sami Joudet, M1 Computer science UniCA,
+  on frustration of signed graphs, with Adrien, Christophe and Florian (2 months), 2023.
+- Emir Melliti, L3 Mathematics ENS Paris, on frustration of signed graphs, with Adrien, Christophe and Florian (2 months), 2023.
+
+
+<!-- PROJECTS -->
+<a id='projects-link'></a><br />
+
+## **Projects**
+
+- 2024-2027 (48 months): Partnership in HORIZON project ACANOS _Application-driven Challenges for Automata Networks and Complex Systems_ with UNIMIB (Milano-Bicocca, IT), UNITS (Trieste, IT), AMU (Marseille, FR), UTU (Turku, FI), MACKENZIE (São Paulo, BR) and CMM (Santiago, Chile).
+- 2023-2024 (24 months): Partnership in STIC AmSud project 22-STIC-02 CAMA
+  with Brazil and Chile.
+  _Consensus Cellular Automata Algorithms and Tie-Majority Classification_
+- 2019-2023 (48+6 months): Partnership in JCJC ANR project ANR-18-CE40-0002
+  FANs.
+  [_Foundations of Automata Networks_](https://anr.fr/Projet-ANR-18-CE40-0002)
+
+<!-- PUBLICATIONS -->
+<a id='publications-link'></a><br />
+## **Publications**
+
+<!-- to add a bib entry touch /_bibliography/references.bib then push -->
+{% bibliography %}
+
+<!-- SEMINARS -->
+<a id='seminars-link'></a><br />
+## **Seminars**
+
+To subscribe, please email Adrien RICHARD at ``<surname  at unice dot fr>``.
+
+<!-- to add a seminar touch /_data/seminars.yml then push -->
+{% for seminar in site.data.seminars %}
+* <b>{{ seminar.date }}</b> at {{ seminar.place }}<br />
+  ''<i>{{ seminar.talk }}</i>''<br />
+  by <b>{{ seminar.who }}</b><br />
+  {% if seminar.slides %}Slides: <a href="{{ site.url }}{{ site.baseurl }}/slides/{{ seminar.slides }}">PDF</a><br />
+  {% endif %}{% if seminar.abstract %}<details>
+    <summary  markdown="span">See abstract</summary>
+    <p class="abstract" style='text-align: justify;'>{{ seminar.abstract }}</p>
+  </details>
+  {% endif %}
+{% endfor %} 
+
+<!-- SOFTWARE -->
+<a id='software-link'></a><br />
+## **Software**
+
+- [FGT](http://fgt.i3s.unice.fr/) : set of tools for analyzing functional graphs.
+
+<!-- News -->
+<a id='news-link'></a><br />
+## **News**
+
+- Aymeric Picard Marchetto brilliantly defended his thesis on October 22, 2024, congratulations!
+- Visit of [Eric Goles](https://ingenieria.uai.cl/profesor/eric-goles/) (Universidad Adolfo Ibáñez, Chile), in November (3 weeks), 2024.
+- Visit of [Ha Duong Phan](http://math.ac.vn/en/component/staff/?task=getProfile&staffID=18) (Institut de Mathématiques de l’Académie des Sciences et Technologies du Vietnam), in November (3 weeks), 2024.
+- Enrico is organizing [CCC 2024](https://www.lix.polytechnique.fr/CCC2024/i.php?Main.Home)  associated with "Journée du GT Calculabilités"  in Nice, September 30 - October 4, 2024.
+- Sandrine is organizing the [19e Journées Montoises d'Informatique Théorique](https://jm2024.sciencesconf.org/) in Nice, September 2-6, 2024.
+- Enrico is organizing [MCU 2024](https://webusers.i3s.unice.fr/MCU2024/) in Nice, June 5-7, 2024.
+- Enrico is organizing [CMC 2024](https://webusers.i3s.unice.fr/CMC2024/) in Nice, June 3-5, 2024.
+- Visit of [Maximilien Gadouleau](https://mrgadouleau.webspace.durham.ac.uk/) (Durham University), from June 9 to June 16, 2024.
+- Visit of [Svetlana Puzynina](https://users.math-cs.spbu.ru/~puzynina/) (Saint Petersburg State University), from January 10 to February 10, 2024.
+- [François Doré](https://webusers.i3s.unice.fr/~dore/) brilliantly defended his thesis on November 11, 2023, congratulations!
+- [MDSC](https://www.i3s.unice.fr/en/research-areas/mdsc) day, November 16, 2023, including talks by Bruno and Adrien.
+- Visit of [Ha Duong Phan](http://math.ac.vn/en/component/staff/?task=getProfile&staffID=18) (Institut de Mathématiques de l’Académie des Sciences et Technologies du Vietnam), in October (2 weeks) and November (2 weeks), 2023.
+- Enrico is organizing [RP'23](https://www.lix.polytechnique.fr/RP2023/) in Nice, October 11-13, 2023.   
+
+
+<!-- CREDITS -->
+<a id='credits-link'></a><br />
+## **Credits**
+
+Site made with [Jekyll](https://jekyllrb.com) from the template [Hydeout](https://github.com/fongandrew/hydeout) and [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar). Runs [here](https://github.com/richardadrien/mc3) with [Github pages](https://pages.github.com/). To install jekyll-scholar, this [post](https://open-research.gemmadanks.com/tutorials/how-to-use-jekyll-scholar-with-github-pages/) is very usefull. 
+
+This site is adapted from the site of [CANA](https://cana.lis-lab.fr/) team from [LIS](https://www.lis-lab.fr/), made with the same tools and running [here](https://gitlab.lis-lab.fr/kevin.perrot/canawww/) with [Gitlab pages](https://docs.gitlab.com/ee/user/project/pages/); many thanks to [Kévin Perrot](https://pageperso.lis-lab.fr/~kevin.perrot/) for sharing!
+
+For any remark concerning this page, please email Adrien RICHARD at ``<surname  at unice dot fr>``.  
+
+<br />
+<br />
+
