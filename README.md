@@ -12,7 +12,7 @@ with the geneoristy of Kévin Perrot
 
 1. Touch one the following files:
 	* ``_posts/2023-11-01-home.md``: main page (markdown)
-	* ``_bibliography/references.bib``: bibtex entries; please follow the file's conventions, and add links toward pdf if possible (e.g. for arxiv links use eprint={1234.1234}).
+	* ``_bibliography/references.bib``: bibtex entries; please follow the file's conventions, and add links toward pdf if possible (e.g. for arxiv links use eprint={1234.1234}, for hal links use hal={hal-04624746v1}).
 	* ``_data/seminars.yml``: seminars (yaml)
 	* ``slides/``: put the slides here, named ``yyyymmdd-Surname.pdf`` (and copy this name under field ``slides:`` in ``seminars.yml``).
 
