@@ -21,6 +21,7 @@
   notamment de savoir s'il est possible de construire des réseaux d'automates hamiltoniens arbitrairement grands sur des graphes 
   d'interaction à degré entrant constant. Nous verrons que la réponse à cette question dépend de la taille de l'alphabet, et 
   en particulier de sa parité."
+  slides: "2025-03-03-Bridoux.pdf"
   
 - who: Aliénor Goubault-larrecq (LIS, AMU)
   date: January 9, 2025, 14h00
