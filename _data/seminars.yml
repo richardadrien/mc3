@@ -10,6 +10,20 @@
 # order: most recent first
 # colon ':' must be avoided (html code &#58;)
 
+- who: Lilian Salinas (Universidad de concepción, Chile)
+  date: June 24, 2025, 11h00
+  place: I3S (007)
+  talk: "Dynamically equivalent disjunctive and linear Boolean networks"
+  abstract: "A Boolean network is defined as a system of n Boolean variables 
+  interacting with each other that evolves, in discrete time, according to a predefined update schedule. 
+  The study of the dynamical behavior of Boolean networks with different update schedules has so 
+  far focused primarily on the possible dynamics and equivalent networks that can be obtained. 
+  However, few studies have been done about which networks can be obtained from another network with a non-parallel schedule.<br> 
+  In this talk, we define the problem of finding a Boolean network that is dynamically equivalent to another network. 
+  For the general case, it is shown that the problem is NP-Hard.<br> 
+  However, if the problem is restricted to disjunctive or linear Boolean networks, it can be solved in polynomial time. Moreover, we study other related problems."
+
+
 - who: Charles Olivier Anclin (LIMOS, Université Clermont Auvergne)
   date: June 12, 2025, 14h00
   place: I3S (007)
