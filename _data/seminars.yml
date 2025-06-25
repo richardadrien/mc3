@@ -10,6 +10,27 @@
 # order: most recent first
 # colon ':' must be avoided (html code &#58;)
 
+- who:  Lionel Gil (Institut de Physique de Nice de l'Université Côte d'Azur)
+  date: July 3, 2025, 14h00
+  place: I3S (007)
+  talk: "Generalization emerges from local optimization in a self-organized learning network"
+  abstract: "We design and analyze a new approach to self-organizing computing networks, driven 
+  only by local optimization rules without relying on a global error function. Traditional neural 
+  networks with a fixed topology are made up of identical nodes and derive their expressive power 
+  from an appropriate adjustment of connection weights. In contrast, our network stores new knowledge 
+  in the nodes accurately and instantaneously, in the form of a lookup table. Only then is some of this 
+  information structured and incorporated into the network geometry. The training error is initially 
+  zero by construction and remains so throughout the dynamics of the network topology evolution. 
+  The latter involves a small number of local topological transformations, such as splitting or 
+  merging nodes and adding binary connections between them, which can be applied again and again. 
+  The choice of operations to be carried out is only driven by optimization of expressivity at the local scale. 
+  One key feature of connectionist networks is their ability to generalize, i.e. their capacity to correctly 
+  answer questions outside of their training set. We show on numerous examples of classification tasks that 
+  our self-organized networks systematically reach such a state of perfect generalization when the number 
+  of learned examples becomes sufficiently large. We report on the dynamics of the change of state and show 
+  that it is abrupt and has the distinctive characteristics of a first order phase transition, a phenomenon 
+  already observed for traditional learning networks and known as grokking."
+
 - who: Lilian Salinas (Universidad de Concepción, Chile)
   date: June 24, 2025, 11h00
   place: I3S (007)
@@ -21,7 +42,8 @@
   However, few studies have been done about which networks can be obtained from another network with a non-parallel schedule.<br> 
   In this talk, we define the problem of finding a Boolean network that is dynamically equivalent to another network. 
   For the general case, it is shown that the problem is NP-Hard.<br> 
-  However, if the problem is restricted to disjunctive or linear Boolean networks, it can be solved in polynomial time. Moreover, we study other related problems."
+  However, if the problem is restricted to disjunctive or linear Boolean networks, it can be solved 
+  in polynomial time. Moreover, we study other related problems."
 
 
 - who: Charles Olivier Anclin (LIMOS, Université Clermont Auvergne)
