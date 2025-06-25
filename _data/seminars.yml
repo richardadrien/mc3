@@ -40,6 +40,7 @@
   with current EMV, but rather we do privacy by engineering design, adhering  to the existing EMV infrastructure, as is.  
   So, PrivBank and PrivProxy provably achieve strong notions of payers and merchant privacy, anonymity and unlinkability 
   as seen in e-cash or shopping vouchers, whilst being implementable in EMV as it stands."
+  slides: "2025-06-12-Anclin.pdf"
 
 - who: Florian Bridoux (MC3)
   date: April 3, 2025, 14h45
