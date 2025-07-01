@@ -44,6 +44,7 @@
   For the general case, it is shown that the problem is NP-Hard.<br> 
   However, if the problem is restricted to disjunctive or linear Boolean networks, it can be solved 
   in polynomial time. Moreover, we study other related problems."
+  slides: "2025-06-24-Salinas.pdf"
 
 
 - who: Charles Olivier Anclin (LIMOS, Université Clermont Auvergne)
