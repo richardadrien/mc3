@@ -19,7 +19,8 @@ of vertices y such that d+(x,y) = 2, where d+(x,y) is the length of the shortest
 it exists. It is obvious that the sum of the first out-degrees of the vertices in an oriented graph is
 nothing but the number of its arcs. Unlike the first out-degree, the summation of the second
 out-degrees of the vertices, denoted by d++(D), is not constant with respect to
-the number of vertices and arcs.<br><br>In [1], Alhussein and El Zein asked for the range of possible values of d++(D) over all orientations D of a given undirected graph G, which we will call the d++ -range of G , and
+the number of vertices and arcs.<br><br>In [1], Alhussein and El Zein asked for the range of possible values of 
+d++(D) over all orientations D of a given undirected graph G, which we will call the d++ -range of G , and
 answered it for complete graphs, by characterizing, as a function of some integer n, the values
 that can be the summation of the second out-degrees of the vertices in a tournament of order
 n. In other words, they showed that for any integer n >= 6, the summation of the second out-
@@ -28,7 +29,16 @@ characterized n-tournaments whose summation of second out-degrees is 0 or 3. The
 asked for a characterization of n-tournaments having this summation i, 5 <= i <= n(n−1)/2 .
 Throughout the proof, they use the new concept of king degree in order to settle the problem.
 The king degree of a vertex x is the number of vertices that can be reached from x by a directed
-path of length at most 2."
+path of length at most 2.<br><br>Alhussein [2] answered the above question for 5 <= i <= 9 and found 
+the number of such tournaments in terms of n.<br><br>In [3], Alhussein and El Zein gave a complete 
+description of the d++ - range for paths and cycles, and developed general tools for triangle-free graphs. 
+As applications, they determined the exact range for grid graphs and established the extremal values of d++ (D) 
+for trees through constructive proofs.<br><br>These results provide a foundation for further investigations of the 
+d++ -range problem in oriented graphs, where several open problems are introduced.<br><br>
+[1] Aya Alhussein and Ayman El Zein, The king degree and the second out-degree of tournaments, 
+Discrete Mathematics 348 (9) (2025) 114497.<br><br>[2] Aya Alhussein, Tournaments with fixed second out-degree summation: 
+Characterization and enumeration, Under review.<br><br>[3] Aya Alhussein and Ayman El Zein, 
+The d++ range problem in oriented graphs, Under review."
 
 - who:  Lionel Gil (Institut de Physique de Nice de l'Université Côte d'Azur)
   date: July 3, 2025, 14h00
