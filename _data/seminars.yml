@@ -23,7 +23,7 @@ the number of vertices and arcs.<br><br>In [1], Alhussein and El Zein asked for 
 answered it for complete graphs, by characterizing, as a function of some integer n, the values
 that can be the summation of the second out-degrees of the vertices in a tournament of order
 n. In other words, they showed that for any integer n >= 6, the summation of the second out-
-degrees in an n-tournament is i if and only if i is in {0, ..., n(n−1)/2 }\{1,2,4}. Moreover, they
+degrees in an n-tournament is i if and only if i is in {0, ..., n(n−1)/2 } and not in {1,2,4}. Moreover, they
 characterized n-tournaments whose summation of second out-degrees is 0 or 3. Then they
 asked for a characterization of n-tournaments having this summation i, 5 <= i <= n(n−1)/2 .
 Throughout the proof, they use the new concept of king degree in order to settle the problem.
