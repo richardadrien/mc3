@@ -16,11 +16,11 @@
   talk: "Des graphes, des signes et des codes"
   abstract: "Un graphe signé est un graphe dont les arêtes sont signées + (positives) ou - (négatives). 
   Le signe d'un cycle est le produit des signes de ses arêtes ; un graphe signé est équilibré s'il 
-  ne contient aucun signe négatif. Les graphes équilibrés sont "polarisés" : on peut partitionner les sommets 
+  ne contient aucun signe négatif. Les graphes équilibrés sont 'polarisés' : on peut partitionner les sommets 
   en deux ensembles, avec uniquement des arêtes positives au sein de chaque ensemble et des arêtes négatives 
   entre les deux. L'index de frustration d'un graphe signé est le nombre minimal d'arêtes à resigner pour 
   équilibrer le graphe ; l'index de frustration maximal d'un graphe non-signé est le maximum index de 
-  frustration de ses signatures, qui représente à quel point le graphe peut être "dépolarisé". 
+  frustration de ses signatures, qui représente à quel point le graphe peut être 'dépolarisé'. 
   Solé et Zaslavsky ont montré comment étudier les graphes signés grâce à la théorie des codes. 
   Quand on fixe le graphe sous-jacent, chaque signature correspond à un ensemble d'arêtes (les négatives), 
   et donc à un vecteur binaire. Les graphes équilibrés forment ainsi un code binaire linéaire, dual aux cycles ; 
